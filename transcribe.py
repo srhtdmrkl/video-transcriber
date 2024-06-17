@@ -88,6 +88,6 @@ video_path = "example/invideo.mp4"  # Path to your MKV video file
 audio_path = "example/extracted_audio.mp3"
 wav_path = "example/extracted_audio.wav"
 srt_path = "example/output_subtitle.srt"
-model_path = "eaxmple/vosk-model-small-en-us-0.15"  # Path to the Vosk model directory
+model_path = "example/vosk-model-small-en-us-0.15"  # Path to the Vosk model directory
 
 transcribe_video_to_srt(video_path, audio_path, wav_path, srt_path, model_path)
